@@ -1,18 +1,33 @@
 # First Flask Login App
 
-This is my first Flask backend mini project.
+A Flask-based login application with:
 
-Features:
-- Login page
+- Multiple users
 - Session handling
-- Redirects
-- Logout functionality
+- Flash messages
+- Flask-WTF forms
+- Password validation
+- Jinja templates
+- Styled UI using CSS
 
-Technologies Used:
+## Technologies Used
+
 - Python
 - Flask
+- Flask-WTF
+- HTML
+- CSS
 
-Run Project:
+## Features
+
+- Login Authentication
+- Flash Messages
+- Logout Functionality
+- Password Length Validation
+- Template Inheritance
+
+## Run Project
 
 pip install -r requirements.txt
+
 python app.py

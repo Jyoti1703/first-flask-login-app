@@ -1,0 +1,226 @@
+body {
+
+    margin: 0;
+    padding: 0;
+
+    background-color: #f2f2f2;
+
+    font-family: Arial, sans-serif;
+}
+
+.navbar {
+
+    background-color: #ff0084;
+
+    color: white;
+
+    padding: 15px;
+
+    display: flex;
+
+    justify-content: space-between;
+
+    align-items: center;
+}
+
+.navbar a {
+
+    color: white;
+
+    text-decoration: none;
+
+    font-weight: bold;
+}
+
+.container {
+
+    width: 400px;
+
+    margin: 80px auto;
+
+    padding: 40px;
+
+    background-color: white;
+
+    border-radius: 15px;
+
+    box-shadow: 0px 0px 15px rgba(0,0,0,0.2);
+
+    text-align: center;
+}
+
+h1 {
+
+    margin-bottom: 40px;
+}
+
+form {
+
+    display: flex;
+
+    flex-direction: column;
+
+    gap: 20px;
+}
+
+input {
+
+    width: 100%;
+
+    padding: 12px;
+
+    font-size: 16px;
+
+    border: 1px solid #ccc;
+
+    border-radius: 8px;
+
+    box-sizing: border-box;
+}
+
+input:focus {
+
+    outline: none;
+
+    border-color: #ff0084;
+
+    box-shadow: 0px 0px 5px rgba(255, 0, 132, 0.5);
+}
+
+input[type="submit"] {
+
+    background-color: #ff0084;
+
+    color: white;
+
+    border: none;
+
+    cursor: pointer;
+
+    font-weight: bold;
+
+    transition: 0.3s;
+}
+
+input[type="submit"]:hover {
+
+    background-color: #ff0084;
+}
+
+.flash-message {
+
+    width: 400px;
+
+    margin: 20px auto;
+
+    padding: 15px;
+
+    border-radius: 8px;
+
+    text-align: center;
+
+    font-weight: bold;
+}
+
+
+/* Success Message */
+.success {
+
+    background-color: #d4edda;
+
+    color: #155724;
+
+    border: 1px solid #c3e6cb;
+}
+
+
+/* Error Message */
+.error {
+
+    background-color: #f8d7da;
+
+    color: #721c24;
+
+    border: 1px solid #f5c6cb;
+}
+
+
+/* Warning Message */
+.warning {
+
+    background-color: #fff3cd;
+
+    color: #856404;
+
+    border: 1px solid #ffeeba;
+}
+.form-group {
+
+    text-align: left;
+
+    margin-bottom: 20px;
+}
+
+.form-group label {
+
+    display: block;
+
+    margin-bottom: 8px;
+
+    font-weight: bold;
+}
+
+.error-text {
+
+    color: red;
+
+    font-size: 14px;
+
+    margin-top: 5px;
+}
+
+.login-btn {
+
+    width: 100%;
+
+    padding: 12px;
+
+    background-color: #ff0084;
+
+    color: white;
+
+    border: none;
+
+    border-radius: 8px;
+
+    font-size: 16px;
+
+    font-weight: bold;
+
+    cursor: pointer;
+
+    transition: 0.3s;
+}
+
+.login-btn:hover {
+
+    background-color: #ff0084;
+}
+.login-btn {
+
+    background-color: #ff0084;
+
+    color: white;
+
+    border: none;
+
+    padding: 12px;
+
+    border-radius: 8px;
+
+    cursor: pointer;
+
+    font-size: 16px;
+
+    font-weight: bold;
+}
